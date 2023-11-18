@@ -1,0 +1,260 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: rgb(1, 78, 86);
+    width: 1510px;
+}
+
+.logo {
+    color: white;
+    margin-left: 165px;
+}
+
+nav ol {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 18px;
+    margin-left: 80px;
+}
+
+nav ol li {
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+button  {
+    width: 120px;
+    height: 35px;
+    color: white;
+    border: 1px solid;
+    background-color:  rgb(1, 78, 86);
+    border-radius: 220px;
+    margin-top: 25px;
+    margin-left: 650px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    width: 120px;
+    height: 35px;
+    color: black;
+    border: 1px solid;
+    background-color:  aqua;
+    border-radius: 220px;
+    margin-top: 25px;
+    margin-left: 650px;
+}
+
+main {
+    width: 1510px;
+    height: 600px;
+    background-color:  rgb(1, 78, 86);
+    position: relative;
+    bottom: 70px;
+}
+
+.hero h2 {
+    font-size: 84px;
+    color: white;
+    margin-left: 195px;
+    padding-top: 120px;
+    line-height: -10px;
+}
+
+.hero h2 span {
+    color: rgb(246, 126, 126 );
+}
+
+.hero p {
+    color: white;
+    margin-left: 830px;
+    margin-top: -160px;
+}
+
+.ready {
+    width: 1510px;
+    height: 684px;
+    background-color: rgb(1, 47, 52);
+    margin-top: 300px;
+}
+
+.ready h3 {
+    font-size: 64px;
+    color: white;
+    margin-left: 195px;
+    padding-top: 150px;
+}
+
+.ul ul li {
+    display: flex;
+    margin-left: 920px;
+    position: relative;
+    top: -270px;
+    gap: 40px;
+}
+
+.setting h2 {
+    color: rgb(246, 126, 126 );
+}
+
+.setting p {
+    color: white;
+}
+
+.individual {
+    width: 1510px;
+    height: 745px;
+    background-color: rgb(1, 78, 86);
+    padding-top: 1px;
+}
+
+.individual h3 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.individual span {
+    color: rgb(121, 200, 199);
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 150px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li img {
+    width: 40px;
+    height: 40px;
+    margin-left: 280px;
+}
+
+.navbar ul li h1 {
+    color: aqua;
+    margin-left: 230px;
+}
+
+.navbar ul li span {
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.navbar ul li p {
+    margin-left: 150px;
+    color: white;
+    margin-top: -20px;
+}
+
+.ml {
+    padding-left: 30px;
+} 
+
+.red {
+    width: 1510px;
+    height: 200px;
+    background-color: rgb(246, 126, 126);
+    padding-top: 20px;
+    display: flex;
+}
+
+.red h4 {
+    font-size: 64px;
+    margin-left: 150px;
+    color: rgb(1, 47, 52);
+    margin-top: 60px;
+}
+
+.button-two {
+    width: 120px;
+    height: 35px;
+    color: rgb(1, 47, 52);
+    border: 1px solid;
+    background-color: rgb(246, 126, 126) ;
+    border-radius: 220px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.button-two:hover {
+    width: 120px;
+    height: 35px;
+    color: black;
+    border: 1px solid;
+    background-color:  aqua;
+    border-radius: 220px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+footer {
+    background-color: rgb(0, 37, 41);
+    width: 1510px;
+    height: 196px;
+    margin-top: 1520px;
+    display: flex;
+}
+
+.logo-footer h1 {
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.logo-footer ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+
+.logo-footer ul li {
+    list-style: none;
+}
+
+.logo-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-info {
+    color: slategray;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.icons {
+    margin-left: 600px;
+    margin-top: 100px;
+    gap: 120px;
+}
+
+.icons span {
+    color: slategray;
+    position: relative;
+    top: 50px;
+    left: -150px;
+    font-size: 12px;
+}

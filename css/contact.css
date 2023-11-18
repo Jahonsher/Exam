@@ -1,0 +1,194 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: rgb(1, 78, 86);
+    width: 1510px;
+}
+
+.logo {
+    color: white;
+    margin-left: 165px;
+}
+
+nav ol {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 18px;
+    margin-left: 80px;
+}
+
+nav ol li {
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+button  {
+    width: 120px;
+    height: 35px;
+    color: white;
+    border: 1px solid;
+    background-color:  rgb(1, 78, 86);
+    border-radius: 220px;
+    margin-top: 25px;
+    margin-left: 650px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    width: 120px;
+    height: 35px;
+    color: black;
+    border: 1px solid;
+    background-color:  aqua;
+    border-radius: 220px;
+    margin-top: 25px;
+    margin-left: 650px;
+}
+
+main {
+    width: 1510px;
+    height: 600px;
+    background-color:  rgb(1, 78, 86);
+    display: flex;
+}
+
+.mar-left {
+    margin-top: -50px;
+}
+
+.mar-left h3{
+    font-size: 48px;
+    color: white;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.mar-left p {
+    font-size: 32px;
+    color: rgb(246, 126, 126 );
+    margin-left: 200px;
+    padding-top: -20px;
+}
+
+.mar-past h2 {
+    font-size: 22px;
+    color: white;
+    margin-left: 280px;
+    margin-top: -50px;
+}
+
+.mar-past img {
+    margin-left: 200px;
+}
+
+form {
+    position: relative;
+    left: 800px;
+    top: -400px;
+    width: 500px;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color:rgb(1, 78, 86);
+  }
+
+.sub {
+    width: 120px;
+    height: 35px;
+    color: rgb(1, 47, 52);
+    border: 1px solid;
+    background-color: rgb(249, 249, 249) ;
+    border-radius: 220px;
+    margin-top: -25px;
+    margin-left: 800px;
+  }
+
+.sub:hover {
+    width: 120px;
+    height: 35px;
+    color: black;
+    border: 1px solid;
+    background-color:  aqua;
+    border-radius: 220px;
+    margin-top: -25px;
+    margin-left: 800px;
+}
+
+.but {
+    margin-top: -350px;
+}
+
+footer {
+    background-color: rgb(0, 37, 41);
+    width: 1510px;
+    height: 196px;
+    margin-top: 1520px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.logo-footer h1 {
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.logo-footer ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+
+.logo-footer ul li {
+    list-style: none;
+}
+
+.logo-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-info {
+    color: slategray;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.icons {
+    margin-left: 600px;
+    margin-top: 100px;
+    gap: 120px;
+}
+
+.icons span {
+    color: slategray;
+    position: relative;
+    top: 50px;
+    left: -150px;
+    font-size: 12px;
+}
